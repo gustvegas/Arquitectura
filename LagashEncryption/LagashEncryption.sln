@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F8EC597-6D63-4B64-A709-991534FF7204}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LagashEncryption", "src\LagashEncryption\LagashEncryption.kproj", "{99C923D7-DF5F-449A-85D1-9BC6537A211C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4449CA85-5542-42C7-8FA3-42E133E4DE9F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LagashEncryption.Console", "src\LagashEncryption.Console\LagashEncryption.Console.kproj", "{D2CD7983-5166-485B-8EA3-6091B9B66B06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C923D7-DF5F-449A-85D1-9BC6537A211C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C923D7-DF5F-449A-85D1-9BC6537A211C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C923D7-DF5F-449A-85D1-9BC6537A211C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C923D7-DF5F-449A-85D1-9BC6537A211C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CD7983-5166-485B-8EA3-6091B9B66B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CD7983-5166-485B-8EA3-6091B9B66B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CD7983-5166-485B-8EA3-6091B9B66B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CD7983-5166-485B-8EA3-6091B9B66B06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99C923D7-DF5F-449A-85D1-9BC6537A211C} = {2F8EC597-6D63-4B64-A709-991534FF7204}
+		{D2CD7983-5166-485B-8EA3-6091B9B66B06} = {2F8EC597-6D63-4B64-A709-991534FF7204}
+	EndGlobalSection
+EndGlobal
